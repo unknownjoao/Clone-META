@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    display: flex;
+}
+
+header img {
+    width: 110px;
+}
+
+
+.leftside, .rightside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftside ul, .rightside ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
