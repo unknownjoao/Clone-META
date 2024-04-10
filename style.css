@@ -28,31 +28,37 @@ header img {
     margin: 0;
 }
 
-/* .carousel-item .content {
+/* .carousel-item img {
+    height: 640px;
+} */
+
+.pe-custom{
+    padding-right: 100px;
+}
+
+.me-custom {
+    margin-left: 100px;
+}
+
+.centralizar {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.carousel-item .left-image {
-    flex: 1;
-    margin-right: 20px; 
+
+.logo-img img {
+    width: 110px;
 }
+/* corrigir padding depois */
 
-.carousel-item .right-content {
-    flex: 2; 
+
+
+@media (min-width: 1400px) {
+    .padding-custom-text { 
+        padding: 0 360px;
+    }
 }
-*/
-/* .carousel-item img {
-    width: 600px;
-} */ 
-
-
-
-
-
-
-
-
 
 
 
