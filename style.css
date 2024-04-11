@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-}
-
 header {
   height: 80px;
   display: flex;
@@ -61,3 +57,9 @@ header img {
     margin: 0 auto;
 }
 
+
+@media (max-width: 768px) {
+  .mobile {
+    display: flex;
+  }
+}
