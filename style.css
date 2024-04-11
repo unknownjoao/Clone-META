@@ -5,12 +5,11 @@
 }
 
 header {
-  height: 80px;
   display: flex;
 }
 
 header img {
-  width: 110px;
+  width: 120px;
 }
 
 .leftside,
@@ -24,14 +23,22 @@ header img {
 .rightside ul {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 40px;
   font-size: 14px;
   margin: 0;
 }
 
-/* .carousel-item img {
-    height: 640px;
-} */
+.leftside ul li,
+.rightside ul li {
+  font-size: 16px;
+}
+
+.leftside ul li a,
+.rightside ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
 
 .pe-custom {
   padding-right: 100px;
@@ -48,18 +55,106 @@ header img {
 }
 
 .logo-img img {
-  width: 110px;
+  width: 200px;
 }
-
 
 /* MOBILE */
 .mobile img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
+/* CARROSSEL DE VIDEO */
+#carouselVideo .video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
-@media (max-width: 768px) {
-  .mobile {
-    display: flex;
-  }
+#carouselVideo #background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#carouselVideo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselVideo .text {
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
+
+#carouselVideo .text h1 {
+  font-size: 4rem;
+  color: rgb(28, 43, 51);
+}
+
+#carouselVideo .text h2 {
+  font-size: 24px;
+  color: rgb(28, 43, 51);
+}
+
+#carouselVideo .text p {
+  font-size: 1.5rem;
+  color: rgb(70, 90, 105);
+}
+
+/* outro video */
+
+#conectionDigital .video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#conectionDigital #background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#conectionDigital .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#conectionDigital .text {
+  color: white;
+}
+
+#conectionDigital .text h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#conectionDigital .text p {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+#conectionDigital button{
+  font-weight: 600;
 }
