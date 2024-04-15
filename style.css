@@ -162,7 +162,6 @@ header img {
 
 /* CARDS */
 
-
 #moreAboutMetaverse .card-body {
   display: flex;
   align-items: center;
@@ -171,7 +170,7 @@ header img {
 
 #moreAboutMetaverse .card {
   padding: 5px;
-  background-color: #F8F9FB;
+  background-color: #f8f9fb;
   border: none;
 }
 
@@ -190,8 +189,6 @@ header img {
   line-height: 27px;
   font-weight: 700;
 }
-
-
 
 .safe-message h2 {
   font-size: 36px;
@@ -238,6 +235,67 @@ header img {
   color: #000;
 }
 
+#cardMoreNotice .card-body-texts a:hover {
+  color: #6e6e6e;
+}
+
+#moreInfos {
+  background-color: #f1f4f7;
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+#moreInfos .social-medias ul {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0;
+  list-style-type: none;
+  gap: 10px;
+}
+
+#moreInfos .logo-img img {
+  max-width: 87px;
+  margin-bottom: 42px;
+}
+
+#moreInfos .social-medias p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#moreInfos .social-medias img {
+  width: 25px;
+}
+
+
+#moreInfos .info-area h6 {
+  color: rgb(52, 72, 84);
+  font-weight: bold;
+}
+
+#moreInfos .info-area ul {
+  padding: 0;
+  list-style: none;
+}
+
+#moreInfos .info-area li {
+ font-size: 12px;
+ line-height: 30px;
+}
+
+#moreInfos .info-area a:hover {
+  color: #6e6e6e;
+  
+}
+
+
+#moreInfos .info-area a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+
 
 
 @media (min-width: 767px) {
@@ -245,7 +303,6 @@ header img {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -253,5 +310,4 @@ header img {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
   }
-
 }
