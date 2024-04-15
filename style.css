@@ -1,12 +1,9 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
-
 
 header {
   display: flex;
@@ -159,48 +156,54 @@ header img {
   color: #fff;
 }
 
-#conectionDigital button{
+#conectionDigital button {
   font-weight: 600;
 }
 
 /* CARDS */
-.card-body {
+
+
+#moreAboutMetaverse .card-body {
   display: flex;
   align-items: center;
-  height: 100%; /* Garante que a altura do card-body ocupa toda a altura disponível */
+  height: 100%;
 }
 
-.card {
+#moreAboutMetaverse .card {
+  padding: 5px;
+  background-color: #F8F9FB;
   border: none;
 }
 
-.cards a {
+#moreAboutMetaverse .cards a {
   text-decoration: none;
 }
 
-.moreAboutTitle p {
+#moreAboutMetaverse .moreAboutTitle p {
   font-size: 12px;
   font-weight: bold;
   line-height: 12px;
 }
 
-.card-body h5{
+#moreAboutMetaverse .card-body h5 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
 }
 
-.safe-message h2{
+
+
+.safe-message h2 {
   font-size: 36px;
   line-height: 43px;
   letter-spacing: 0.36px;
 }
 
-.actions a{
-   color: #000;
+.actions a {
+  color: #000;
 }
 
-.actions a:hover{
+.actions a:hover {
   color: #6e6e6e;
 }
 
@@ -209,4 +212,46 @@ header img {
   line-height: 24px;
   letter-spacing: 0.08px;
   font-weight: bold;
+}
+
+.cardBanner {
+  background-color: #1c2b33;
+  color: white;
+}
+
+.card-body-texts a {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#cardSecurity .col-md-6 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#cardMoreNotice .col-md-6 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#cardMoreNotice .card-body-texts a {
+  color: #000;
+}
+
+
+
+@media (min-width: 767px) {
+  #cardSecurity .col-md-6 img {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #cardSecurity .col-md-6 img {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+
 }
