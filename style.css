@@ -296,6 +296,20 @@ header img {
 }
 
 
+.accordion-header {
+  background-color: #F1F4F7;
+}
+
+
+.accordion-button {
+  color: #F1F4F7;
+}
+
+
+.accordion-body {
+  background-color: #F1F4F7;
+}
+
 
 
 @media (min-width: 767px) {
