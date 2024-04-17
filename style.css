@@ -13,32 +13,33 @@
   line-height: 40px;
 }
 
-.topics ul li{
+.topics ul li {
   font-size: 14px;
   color: #000;
 }
 
 .topics a:hover {
   text-decoration: underline;
-  color: #1370E2;
+  color: #1370e2;
 }
 
-.nav{
+.nav {
   width: 100%;
   min-height: 115px;
   z-index: 100;
-  background-color: #FFF;
+  background-color: #fff;
   left: 0;
   border-bottom: 2px solid #ccc;
 }
 
 .nav-window {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-
-
-#aba0, #aba1, #aba2, #aba3 {
+#aba0,
+#aba1,
+#aba2,
+#aba3 {
   display: none;
 }
 
@@ -50,20 +51,17 @@ li:hover .fa-angle-down {
   transform: rotate(-180deg);
 }
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  
 }
 
-.topics ul{
+.topics ul {
   margin: 0;
   padding: 0;
 }
-
 
 header {
   display: flex;
@@ -101,7 +99,8 @@ header img {
   color: inherit;
 }
 
-.leftside i, .rightside i {
+.leftside i,
+.rightside i {
   margin-left: 5px;
 }
 
@@ -341,7 +340,6 @@ header img {
   width: 25px;
 }
 
-
 #moreInfos .info-area h6 {
   color: rgb(52, 72, 84);
   font-weight: bold;
@@ -353,37 +351,30 @@ header img {
 }
 
 #moreInfos .info-area li {
- font-size: 12px;
- line-height: 30px;
+  font-size: 12px;
+  line-height: 30px;
 }
 
 #moreInfos .info-area a:hover {
   color: #6e6e6e;
-  
 }
-
 
 #moreInfos .info-area a {
   text-decoration: none;
   color: rgb(34, 34, 34);
 }
 
-
 .accordion-header {
-  background-color: #F1F4F7;
+  background-color: #f1f4f7;
 }
-
 
 .accordion-button {
-  color: #F1F4F7;
+  color: #f1f4f7;
 }
-
 
 .accordion-body {
-  background-color: #F1F4F7;
+  background-color: #f1f4f7;
 }
-
-
 
 @media (min-width: 767px) {
   #cardSecurity .col-md-6 img {
@@ -398,3 +389,49 @@ header img {
     border-top-left-radius: 30px;
   }
 }
+
+footer {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(23, 44, 52);
+}
+
+.footer-leftside ul li,
+.footer-leftside ul,
+.footer-leftside a {
+  list-style: none;
+  margin-bottom: 0;
+  color: rgb(23, 44, 52);
+  text-decoration: none;
+}
+
+.footer-leftside a:hover{
+  color: #6e6e6e;
+}
+
+.footer-rightside button {
+  font-size: 12px;
+}
+.footer-rightside button:hover {
+  color: #6e6e6e;
+}
+
+.footer-rightside ul li {
+  line-height: 30px;
+}
+
+.footer-rightside ul li:hover {
+  background-color: #3689ee;
+}
+
+.footer-rightside a {
+  font-size: 12px;
+  margin-left: 10px;
+  color: rgb(23, 44, 52);
+  text-decoration: none;
+}
+
+.footer-rightside a:hover {
+  color: white;
+}
+
